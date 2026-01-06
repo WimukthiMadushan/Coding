@@ -1,4 +1,5 @@
 import CommanQuestions.ArrayReverse;
+import CommanQuestions.StringReverse;
 import SortingAlgorithms.BubbleSort;
 import SortingAlgorithms.InsertionSort;
 
@@ -12,7 +13,12 @@ public class Main {
         //var insertionSort=new InsertionSort();
         //insertionSort.sort(array);
 
-        var arrayReverse = new ArrayReverse();
-        arrayReverse.reverse(array);
+        //var arrayReverse = new ArrayReverse();
+        //arrayReverse.reverse(array);
+
+        var stringReverse = new StringReverse();
+        //System.out.println(stringReverse.stringReverse("Wimukthi Madushan"));
+
+        stringReverse.sentenceReverse("Wimukthi Madushan");
     }
 }
